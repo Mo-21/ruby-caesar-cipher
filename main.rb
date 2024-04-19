@@ -1,5 +1,3 @@
-require 'pry-byebug'
-
 def get_shifted_letter(word, shift)
   letters = word.chars.each do |l|
     loop_over_letters(l, shift)
